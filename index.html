@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>کافه آتور - منو دیجیتال</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>کافه آتور☕</h1>
+
+    </header>
+
+    
+
+    <section class="menu">
+
+
+<!-- 
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#hookah"><i class="fas fa-smoking"></i> قلیان‌ها</a></li>
+          <li><a href="#hot-drinks"><i class="fas fa-coffee"></i> نوشیدنی گرم</a></li>
+          <li><a href="#cold-drinks"><i class="fas fa-glass-water"></i> نوشیدنی سرد</a></li>
+          <li><a href="#food"><i class="fas fa-utensils"></i> غذاها</a></li>
+        </ul>
+      </nav> -->
+
+
+
+<!-- Search Bar - Add this inside <section class="menu"> -->
+<div class="search-container">
+  <input 
+    type="text" 
+    id="searchInput" 
+    placeholder="جستجوی نوشیدنی یا غذا..."
+    dir="rtl"
+  >
+  <i class="fas fa-search"></i>
+</div>
+
+
+
+
+      <nav class="menu-nav">
+        <!-- Mobile menu button -->
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+          <span>منو</span>
+        </button>
+        
+        <!-- Navigation links -->
+        <ul class="nav-links">
+          juice
+
+          <li><a href="#hookah"><i class="fas fa-smoking"></i> <span>قلیان‌ها</span></a></li>
+          <li><a href="#hot-drinks"><i class="fas fa-coffee"></i> <span>نوشیدنی گرم</span></a></li>
+          <li><a href="#cold-drinks"><i class="fas fa-glass-water"></i> <span>نوشیدنی سرد</span></a></li>
+           <li><a href="#juice"><i class="fa-solid fa-martini-glass-citrus" style="color: #ffffff;"></i> <span>آبمیوه</span></a></li>
+           <li><a href="#tea"><i class="fa-solid fa-mug-hot" style="color: #ffffff;"></i>  <span>چای و دمنوش</span></a></li>
+           <li><a href="#breakfast"><i class="fa-solid fa-egg" style="color: #ffffff;"></i><span>صبحانه</span></a></li>
+           <li><a href="#fastfood"><i class="fa-solid fa-burger" style="color: #ffffff;"></i> <span>فست فود</span></a></li>
+          <li><a href="#food"><i class="fas fa-utensils"></i> <span>غذاها</span></a></li>
+        </ul>
+      </nav>
+
+
+      <div id="hookah" class="category">
+        <h2 class="category-title">قلیان ها</h2>
+        <p class="category-description">تمامی قیلیان ها به همراه چای رایگان</p>
+        <div class="text-item">
+          <span class="item-name"> قلیان ها</span>
+          <span class="item-price">۱۰۰ تومان</span>
+        </div>
+        <div class="text-item">
+          <span class="item-name">قلیان های ویژه</span>
+          <span class="item-price">۱۲۰ تومان</span>
+        </div>
+        <div class="text-item">
+          <span class="item-name">سری اضافه</span>
+          <span class="item-price">55 تومان</span>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="hot-drinks" class="category">
+        <h2 class="category-title">نوشیدنی‌ گرم</h2>
+        <div class="product teaService">
+          <div class="product-info">
+            <h3>سینی چای</h3>
+           
+          </div>
+          <div class="product-image">
+            <img src="img/Tee.jpg" alt="سینی چای"  loading="lazy"/>
+          </div>
+        </div>
+
+        <div class="text-item">
+          <span class="item-name">اسپرسو تک</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">اسپرسو دوبل</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">اسپرسو مارک دوبل</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">اسپرسو مارک تک</span>
+        </div>
+      </div>
+
+
+      <div class="text-item">
+          <span class="item-name">قهوه فرانسه</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name"> هات چالت دارک</span>
+        </div>
+      </div>
+      
+      <div class="text-item">
+          <span class="item-name"> هات چالت وایت</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name"> هات چالت پینک</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">کافه لاته</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">کافه لاته کارامل</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">کافه لاته فندق-کارامل</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">کافه لاته زعفران-وانیل</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">فهوه ترک </span>
+        </div>
+      </div>
+      
+      <div class="text-item">
+          <span class="item-name">چای ماسالا</span>
+        </div>
+      </div>
+      
+      <div class="text-item">
+          <span class="item-name">جای ماسالا ویژه آتور</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">شیرکاپو - کاپاچینو</span>
+        </div>
+      </div>
+      
+      <div class="text-item">
+          <span class="item-name">موکا دارک</span>
+        </div>
+      </div>
+      
+      <div class="text-item">
+          <span class="item-name">موکا پریمیوم</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">شیر نسکافه - کافی میکس</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">کاپوجاکلت خاص آتور</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">شیر کاکائو فندقی</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">آفوگاتو آتور</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">امیرکنو تک</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">امریکنو دوبل</span>
+        </div>
+      </div>
+
+      <div class="text-item">
+          <span class="item-name">نسکافه گلد</span>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="cold-drinks" class="category">
+        <h2 class="category-title">نوشیدنی‌ سرد</h2>
+        <div class="text-item">
+  <span class="item-name">ایس لته کلاسیک</span>
+</div>
+<div class="text-item">
+  <span class="item-name">ایس لته کارامل</span>
+</div>
+<div class="text-item">
+  <span class="item-name">ایس لته فندق</span>
+</div>
+<div class="text-item">
+  <span class="item-name">ایس لته نوتلا(ویژه آتور)</span>
+</div>
+<div class="text-item">
+  <span class="item-name">ایس امریکن تک</span>
+</div>
+<div class="text-item">
+  <span class="item-name">ایس امریکن دوبل</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آفوگاتو فندق</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آفوگاتو دارک</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آفوگاتو کارامل</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آیس موکا دارک</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آیس موکا پریمیوم</span>
+</div>
+<div class="text-item">
+  <span class="item-name">فراپه(ویژه آتور)</span>
+</div>
+<div class="text-item">
+  <span class="item-name">پانچ(ویژه آتور)</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شیک نوتلا</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شیک موز</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شیک توت فرنگی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شیک بادام زمینی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">اسموتی (ویژه آتور)</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آیس کاپو</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آیس چاکلت دارک</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آیس چاکلت پینک</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آیس چاکلت وایت</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آیس چاکلت پریمیوم</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شیر موز</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شیر موز شکلاتی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شیر موز ویژه (مخصوص آتور)</span>
+</div> 
+<div class="text-item">
+  <span class="item-name">موهیتو ویژه آتور</span>
+</div>
+<div class="text-item">
+  <span class="item-name">سرد نوش آلبالو</span>
+</div>
+<div class="text-item">
+  <span class="item-name">سرد نوش گلاب زعفران</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آلاسکا</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بلوهاوایی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">لیموناد مخصوص آتور</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شربت انبه</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شربت بهارنارنج</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شربت نعنا</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شربت گل سرخ</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شربت بیدمشک</span>
+</div>
+<div class="text-item">
+  <span class="item-name">شربت آناناس</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="juice" class="category hidden">
+  <h2 class="category-title">آبمیوها</h2>
+  
+  
+  <div class="text-item">
+    <span class="item-name">آب هندونه بستنی</span>
+  </div>
+  <div class="text-item">
+    <span class="item-name">آب هویج بستنی</span>
+  </div>
+  <div class="text-item">
+    <span class="item-name">ژله بستنی</span>
+  </div>
+  <div class="text-item">
+  <span class="item-name">آب هویج</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آب سیب</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آب طالبی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آب هندونه</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آب انار</span>
+</div>
+<div class="text-item">
+  <span class="item-name">آب پرتقال</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="tea" class="category hidden">
+        <h2 class="category-title">چای و دمنوش</h2>
+        <div class="text-item">
+  <span class="item-name">چای ساده</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چای سبز</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چای دارچین</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چای آلاله</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چای بهارنارنج</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چای هل</span>
+</div>
+<div class="text-item">
+  <span class="item-name">دمنوش ختمی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">دمنوش بابونه</span>
+</div>
+<div class="text-item">
+  <span class="item-name">دمنوش بهارنارنج</span>
+</div>
+<div class="text-item">
+  <span class="item-name">دمنوش بهار ریحون(ویژه آتور)</span>
+</div>
+<div class="text-item">
+  <span class="item-name">دمنوش به دونه و پر سیب</span>
+</div>
+<div class="text-item">
+  <span class="item-name">دمنوش به لیمو</span>
+</div>
+<div class="text-item">
+  <span class="item-name">دمنوش گل گاورزبون</span>
+</div>
+
+
+
+
+
+
+
+<div id="breakfast" class="category hidden">
+        <h2 class="category-title">صبحانه</h2>
+
+
+      <div class="text-item">
+  <span class="item-name">املت</span>
+</div>
+<div class="text-item">
+  <span class="item-name">نیمرو</span>
+</div>
+<div class="text-item">
+  <span class="item-name">سوسیس تخمه مرغ</span>
+</div>
+<div class="text-item">
+  <span class="item-name">املت پیازی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">قرمه تخمه مرغ</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب vipآتور</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب ایرانی سرد</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب آمریکایی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب فرانسوی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب انگلیسی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">لوبیا گرم</span>
+</div>
+<div class="text-item">
+  <span class="item-name">عدسی</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div id="fastfood" class="category hidden">
+        <h2 class="category-title">فست فود</h2>
+
+        <div class="text-item">
+  <span class="item-name">املت</span>
+</div>
+<div class="text-item">
+  <span class="item-name">نیمرو</span>
+</div>
+<div class="text-item">
+  <span class="item-name">سوسیس تخمه مرغ</span>
+</div>
+<div class="text-item">
+  <span class="item-name">املت پیازی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">قرمه تخمه مرغ</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب vipآتور</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب ایرانی سرد</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب آمریکایی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب فرانسوی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بشقاب انگلیسی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">لوبیا گرم</span>
+</div>
+<div class="text-item">
+  <span class="item-name">عدسی</span>
+</div>
+
+
+
+
+ <div id="food" class="category hidden">
+        <h2 class="category-title">ناهار و شام</h2>
+<div class="text-item">
+  <span class="item-name">فیله مرغ کبابی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">بال و پاچین کبابی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چلومرغ زعفرانی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">زرشک پلو با مرغ</span>
+</div>
+<div class="text-item">
+  <span class="item-name">قرمه سبزی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">کشک کدو</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چلوکباب گوسفندی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">کوبیده تک سیخ گوسفندی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">چلوجوجه زعفرانی</span>
+</div>
+<div class="text-item">
+  <span class="item-name">ساندویچ کباب</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>اطلاعات تماس</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> آدرس: کرمان، خیان سعدی، روبه‌روی کوچه ۱، جنب داروخانه حلال احمر<br />
+            
+          </p>
+          <p>
+            مدیریت: آقای ربیعی
+            </BR>
+            <i class="fas fa-mobile-alt"></i>
+            <a href="tel:+989350709230" dir="ltr"
+              ><span class="phone-number">۰۹۰۱ ۹۰۹ ۵۴۰۲</span></a
+            >
+          </p>
+          <p>
+            <i class="fas fa-clock"></i> ساعت کاری: هر روز از ۷ونیم صبح تا ۱ بامداد
+          </p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://instagram.com/hami.cafe" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://g.co/kgs/dkeA8J6" target="_blank"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a href="tel:+989019095402"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© ۱۴۰۴ - تمامی حقوق برای کافه آتور محفوظ است</p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+// ======================
+// Scroll Animation
+// ======================
+const sections = document.querySelectorAll(".hidden");
+
+window.addEventListener("scroll", function () {
+  sections.forEach((section) => {
+    const sectionTop = section.getBoundingClientRect().top;
+    if (sectionTop < window.innerHeight - 50) {
+      section.classList.add("show");
+    }
+  });
+});
+
+
+
+
+// ======================
+// SEARCH FUNCTIONALITY
+// ======================
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('searchInput');
+  const menuItems = document.querySelectorAll('.product, .text-item');
+  
+  searchInput.addEventListener('input', function() {
+    const searchTerm = this.value.trim().toLowerCase();
+    
+    menuItems.forEach(item => {
+      const textElement = item.querySelector('h3, .item-name'); // Check both product and text-item
+      if (!textElement) return; // Skip if no text found
+      
+      const itemName = textElement.textContent.toLowerCase();
+      item.style.display = itemName.includes(searchTerm) ? 'flex' : 'none';
+    });
+  });
+});
+
+
+
+
+
+
+
+
+
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const mobileBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        const menuIcon = mobileBtn.querySelector('i');
+      
+        // Toggle mobile menu
+        mobileBtn.addEventListener('click', function() {
+          navLinks.classList.toggle('show');
+          menuIcon.classList.toggle('fa-bars');
+          menuIcon.classList.toggle('fa-times');
+        });
+      
+        // Close menu when clicking links (mobile only)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+          link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+              navLinks.classList.remove('show');
+              menuIcon.classList.replace('fa-times', 'fa-bars');
+            }
+          });
+        });
+      
+        // Smooth scrolling
+        document.querySelectorAll('.menu-nav a').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+      });
+      </script>
+
+  </body>
+  
+</html>
